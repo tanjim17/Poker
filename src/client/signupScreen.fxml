@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="470.0" prefWidth="934.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.SignupController">
+   <children>
+      <ImageView fitHeight="641.0" fitWidth="1059.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/signup.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#104013" height="308.0" layoutX="314.0" layoutY="93.0" opacity="0.76" stroke="#48ae2f" strokeType="INSIDE" width="396.0" />
+      <Label layoutX="329.0" layoutY="202.0" text="User Name" textFill="WHITE">
+         <font>
+            <Font name="DAGGERSQUARE" size="22.0" />
+         </font></Label>
+      <Label layoutX="341.0" layoutY="263.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="DAGGERSQUARE" size="21.0" />
+         </font></Label>
+      <TextField fx:id="userName_sign" layoutX="465.0" layoutY="201.0">
+         <font>
+            <Font name="Lucida Fax Demibold" size="15.0" />
+         </font></TextField>
+      <Button layoutX="542.0" layoutY="339.0" mnemonicParsing="false" onAction="#signUp" style="-fx-background-color: green; -fx-background-radius: 10;" text="Sign Up" textFill="#ffe4e4">
+         <font>
+            <Font name="DAGGERSQUARE-OBLIQUE" size="23.0" />
+         </font></Button>
+      <PasswordField fx:id="password_sign" layoutX="465.0" layoutY="260.0" prefHeight="32.0" prefWidth="192.0" style="-fx-background-color: grey;">
+         <font>
+            <Font name="Lucida Fax Demibold" size="16.0" />
+         </font></PasswordField>
+      <Text fill="WHITE" layoutX="375.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATE ACCOUNT" underline="true" wrappingWidth="254.39599609375">
+         <font>
+            <Font name="DAGGERSQUARE" size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

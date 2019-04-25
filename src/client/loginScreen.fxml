@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.LoginController">
+   <children>
+      <ImageView fitHeight="683.0" fitWidth="1001.0" pickOnBounds="true">
+         <image>
+            <Image url="@../resources/login.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e5ff" height="277.0" layoutX="26.0" layoutY="344.0" opacity="0.26" stroke="BLACK" strokeType="INSIDE" width="317.0" />
+      <Label layoutX="48.0" layoutY="376.0" text="UserName" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="19.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="459.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="19.0" />
+         </font></Label>
+      <TextField fx:id="userName_log" layoutX="54.0" layoutY="410.0" style="-fx-background-color: grey;">
+         <font>
+            <Font name="Lucida Fax Regular" size="16.0" />
+         </font></TextField>
+      <Button layoutX="183.0" layoutY="548.0" mnemonicParsing="false" onAction="#logIn" prefHeight="44.0" prefWidth="123.0" style="-fx-background-color: #003366; -fx-background-radius: 15;" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="750.0" layoutY="31.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="53.0" prefWidth="198.0" style="-fx-background-color: #191970; -fx-background-radius: 15;" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password_log" layoutX="57.0" layoutY="496.0" />
+   </children>
+</AnchorPane>

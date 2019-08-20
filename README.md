@@ -10,8 +10,8 @@ You need to create a user account to play the game. The accounts are password-pr
 you log out.
 
 Developers:
-Tanjim Ahmed Khan(Me) github.com/tanjim17
-Ayan Antik Khan github.com/Ayan-Antik
+Tanjim Ahmed Khan(Me) https://github.com/tanjim17
+Ayan Antik Khan https://github.com/Ayan-Antik
 
 ![Untitled](https://user-images.githubusercontent.com/45909948/56754444-df4f5700-67ae-11e9-8013-392c97ae3f48.png)
 

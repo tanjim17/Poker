@@ -11,7 +11,7 @@ you log out.
 
 Developers:
 
-Tanjim Ahmed Khan (Me) https://github.com/tanjim17
+Tanjim Ahmed Khan https://github.com/tanjim17
 
 Ayan Antik Khan https://github.com/Ayan-Antik
 

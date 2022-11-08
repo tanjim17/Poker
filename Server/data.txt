@@ -1,0 +1,9 @@
+alex#1#9540
+james#2#9540
+severus#3#10000
+ron#4#10000
+padfoot#5#9540
+potter#6#10000
+tanjim#7#10000
+antik#8#10000
+moony#9#10000
